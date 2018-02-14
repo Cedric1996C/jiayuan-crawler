@@ -29,13 +29,13 @@ node app.js
 - [superagent](https://github.com/visionmedia/superagent)：轻量级用户代理、网络请求库
 
 ## 爬取思路
-### 1. 登录模拟：
+#### 1. 登录模拟：
 使用准备好的账户模拟登陆，得到标识登录状态的认证 cookie，这样在后续爬取中能够获得完整的 html 内容
 
-### 2. 随机策略：
+#### 2. 随机策略：
 随机选取起始 ID，后续每次爬取取上一次采集的 ID+random_num 的用户信息，random_num 在 0-1000 中随机生成
 
-### 3. 持久化：
+#### 3. 持久化：
 集成 moogoose，使用 mongodb 存储用户信息
 
 ## 数据展示：
