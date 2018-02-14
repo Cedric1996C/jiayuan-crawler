@@ -1,7 +1,7 @@
 # data-crawler
 基于 Nodejs 的定向爬虫工具，用于采集 [世纪佳缘](http://www.jiayuan.com/) 的用户信息数据.
 
-作者： 141220045 贾聪
+Author: [Robottdog.C](robottdog.com)
 
 ## 如何使用
 ```
